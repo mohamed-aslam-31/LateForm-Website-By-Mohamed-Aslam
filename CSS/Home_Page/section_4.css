@@ -1,0 +1,128 @@
+.features_section_class{
+    margin:5rem 0;
+    width:100%;
+    height:fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.features_heading_h1_class{
+width:85%;
+height:fit-content;
+text-align: left;
+color: white;
+font-family:myFirstFont2;
+font-size:3rem;
+}
+.features_heading_h1_class .features_heading_h1_span_class{
+    color:hsl(191, 100%, 50%);
+    font-family:myFirstFont2;
+    font-size: 3rem;
+}
+.features_container_class{
+    margin-top:3rem;
+    width:80%;
+    height:fit-content;
+    display: grid;
+    grid-template-columns: 68% 32%;
+    column-gap:2rem;
+    row-gap:6rem;
+
+}
+.features_content_1_class,
+.features_content_2_class,
+.features_content_3_class
+{
+    width:100%;
+    height:fit-content;
+    display: flex;
+    justify-content:center;
+    align-items: flex-start;
+    flex-direction: column;
+    row-gap:2rem;
+}
+.features_content_1_class .features_content_1_topic_container_class,
+.features_content_2_class .features_content_2_topic_container_class,
+.features_content_3_class .features_content_3_topic_container_class{
+    width:100%;
+    height:fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    
+
+}
+
+ .features_content_1_class .features_content_1_topic_container_class .features_content_1_topic_h1_class{
+    position: relatie;
+    color: white;
+    font-family:myFirstFont2;
+    font-weight: bolder;
+    font-size:1.9rem;
+    position: relative;
+    left:-1.8rem;
+   
+    
+}
+.features_content_2_class .features_content_2_topic_container_class .features_content_2_topic_h1_class,
+ .features_content_3_class .features_content_3_topic_container_class .features_content_3_topic_h1_class{
+    position: relatie;
+    color: white;
+    font-family:myFirstFont2;
+    font-weight: bolder;
+    font-size:1.8rem;
+    position: relative;
+    left:-0.8rem;
+ }
+.features_content_1_class .features_content_1_p_class,
+.features_content_2_class .features_content_2_p_class,
+.features_content_3_class .features_content_3_p_class,
+.features_content_2_class .features_content_2_p_2_class{
+    width:100%;
+    color: white;
+    font-size:1.3rem;
+    margin-left:1.7rem;
+    line-height:1.9rem;
+    margin-top:1rem;
+    font-weight:100;
+}
+.features_content_1_class .features_content_1_ul_class,
+.features_content_2_class .features_content_2_ul_class{
+    width:100%;
+    height: max-content;
+    margin-left:3.5rem;
+}
+.features_content_1_class .features_content_1_ul_class .features_content_1_li_class,
+.features_content_2_class .features_content_2_ul_class .features_content_2_li_class{
+    color: white;
+    font-size:1.2rem;
+    line-height:2.2rem;
+}
+.features_content_1_topic_image_class,
+.features_content_2_topic_image_class,
+.features_content_3_topic_image_class{
+width:4rem;
+height:fit-content;
+}
+.features_content_1_image_class,
+.features_content_2_image_class,
+.features_content_3_image_class
+{
+width:100%;
+height:100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding:0.5rem;
+}
+.features_content_1_image_class svg,
+.features_content_2_image_class  svg,
+.features_content_3_image_class img
+{
+    width:80%;
+    height:100%;
+    z-index:100;
+}

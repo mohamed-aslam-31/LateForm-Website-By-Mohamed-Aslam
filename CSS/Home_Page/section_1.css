@@ -1,0 +1,107 @@
+.about_section_class{
+    width:100%;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+
+    /* background-image:url(./images/noise.png);
+     backdrop-filter:blur(30px); */
+}
+.about_container_class{
+    width:85%;
+    
+    height:75%;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    flex-direction: column;
+
+}
+.about_section_class .about_container_class .about_h1_class{
+  font-family:myFirstFont2;
+    font-size:3rem;
+    color: white;
+    font-weight: bolder;
+
+}
+.about_section_class .about_container_class .about_h1_class .about_h1_span_class{
+  font-family:myFirstFont2;
+    font-size:3rem;
+    color: #00D1FF;
+    font-weight: bolder;
+}
+.about_section_class .about_container_class .about_content_class .about_content_p_class{
+  width:100%;
+    font-size:1.2rem;
+    color: rgba(255, 255, 255, 0.8);
+    line-height:2.4rem;
+    word-spacing:1px;
+    font-weight:100;
+    
+}
+.about_section_class .about_container_class  .about_content_button_class{
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    column-gap:0.5rem;
+    position: relative;
+    font-size:1rem;
+    transition-duration:0.5s;
+    padding:2rem 1rem;
+}
+.about_section_class .about_container_class  .about_content_button_class:hover{
+color: #00D1FF;
+letter-spacing:1px;
+}
+
+.arrow_2 {
+    display:inline-block;
+    background: white;
+    height: 2px;
+    width: 18px;
+    margin: 0 auto;
+    position: relative;
+    cursor: pointer;
+    top:0.1rem;
+    opacity:.8;
+    transition-duration:0.5s;
+  
+
+    &:before,
+    &:after {
+      content: "";
+      background: white;
+      position: absolute;
+      height: 2px;
+      width: 10px;
+      transition-duration:0.5s;
+    }
+  
+    &:before {
+      right: -2px;
+      bottom: -3px;
+      transform: rotate(-45deg);
+    }
+  
+    &:after {
+      right: -2px;
+      top: -3px;
+      transform: rotate(45deg);
+    }
+  }
+ 
+  .about_section_class .about_container_class  .about_content_button_class:hover .arrow_2{
+    background-color:#00D1FF;
+    transform: translateX(20%);
+    &:before,
+    &:after {
+      background-color:#00D1FF;
+    }
+   
+  } 

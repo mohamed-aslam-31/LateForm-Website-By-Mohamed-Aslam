@@ -1,0 +1,124 @@
+.features_card_section_class{
+    width:100%;
+    height:fit-content;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    row-gap: 2rem;
+    margin-bottom:2rem;
+}
+
+.features_card_container_class {
+    width: 80%;
+    height: 100%;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns:50% 50% 50%;
+    position: relative;
+    column-gap:2rem;
+    
+}
+.features_button_container_class{
+    width:100%;
+    height:fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin:2rem 0rem;
+
+}
+.features_card_class {
+    width:100%;
+    height:100%;
+   
+    padding:2rem 3rem;
+    background:url(../../images/svg/Backgrounds/noise_Background.png);
+    border-radius:1rem;
+}
+.features_card_transparent_bg_class{
+    width:100%;
+    height:105%;
+    transition: 1s;
+    background: rgb(0,0,0);
+background: linear-gradient(200deg, rgba(110, 110, 110, 0.1) 5%, rgba(255,255,255,0.5) 100%);
+backdrop-filter:blur(0px);
+border-radius:1rem;
+}
+.features_card_transparent_bg_class .features_card_class .features_card_h3_class{
+    color: white;
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: 1.5px;
+    line-height: 5rem;
+    text-transform: uppercase;
+
+}
+.features_card_transparent_bg_class .features_card_class .features_card_ul_class{
+   
+    margin-left:1rem;
+}
+.features_card_transparent_bg_class .features_card_class .features_card_ul_class .features_card_li_class{
+   
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 100;
+    font-size: 1rem;
+    letter-spacing: 1.5px;
+    line-height: 2rem;
+    font-family: myFirstFont3;
+    
+}
+.features_button_container_class{
+    width:85%;
+    height:fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+.features_next_button_class{
+width:5rem;
+height:fit-content;
+
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+
+
+>img{
+    width:100%;
+    height:100%;
+   transition-duration:0.5s;
+
+}
+
+}
+.features_next_button_class img:hover{
+opacity:0.6;
+}
+.features_previous_button_class{
+width:5rem;
+height:fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility:hidden;
+    transition:0.5s;
+    cursor: pointer;
+    >img{
+        width:100%;
+        height:100%;
+        transition:0.5s;
+        
+    
+        }
+
+}
+
+.features_previous_button_class img:hover{
+    opacity:0.6;
+    }
